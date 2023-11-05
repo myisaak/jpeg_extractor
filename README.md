@@ -1,5 +1,5 @@
 [![Crates.io](https://img.shields.io/crates/v/jpeg_extractor.svg)](https://crates.io/crates/jpeg_extractor)
-[![Workflow Status](https://github.com/MyIsaak/jpeg_extractor/workflows/rust/badge.svg)](https://github.com/MyIsaak/jpeg_extractor/actions?query=workflow%3A%rust%22)
+[![Rust](https://github.com/MyIsaak/jpeg_extractor/actions/workflows/rust.yml/badge.svg)](https://github.com/MyIsaak/jpeg_extractor/actions/workflows/rust.yml)
 
 # jpeg_extractor
 
