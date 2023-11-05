@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>JPEG Extractor - Extract all JPEG images from any binary</title>
+    <script src="https://unpkg.com/htmx.org@1.9.7"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><a href="/"><strong>JPEG Extractor</strong></a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <h1>File Upload and Display</h1>
+        <form hx-post="/api/upload" hx-target="#image-list">
+            <label for="file">Select Files:</label>
+            <input type="file" name="files" accept="*" multiple>
+            <button type="submit">Upload and Display</button>
+        </form>
+    
+        <h2>Extracted Images:</h2>
+        <ul id="image-list">
+            <!-- Images will be displayed here -->
+        </ul>
+    </main>
+</body>
+</html>
